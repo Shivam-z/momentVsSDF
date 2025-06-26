@@ -1,0 +1,86 @@
+.container {
+  max-width: 600px;
+  margin: 3rem auto;
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+input[type="text"] {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+.format-button {
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: fit-content;
+  align-self: center;
+}
+
+.format-button:hover {
+  background-color: #0056b3;
+}
+
+.result-section {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-family: "Courier New", monospace;
+  color: #333;
+}
+
+.results div {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  gap: 1rem;
+  display: flex;
+}
